@@ -5,7 +5,7 @@
   <span class="menu-icon">&#9776;</span>
   <!-- Modificar el atributo href para redirigir al dashboard -->
   <a href="/views/templates/dashboard.php" class="logo">
-    <img src="../img/noGanador.jpeg" alt="Logo Empresa" class="logo-img">
+    <img src="../../img/noGanador.jpeg" alt="Logo Empresa" class="logo-img">
   </a>
 </div>
 
@@ -13,12 +13,12 @@
   <div class="logo-container">
     <!-- También puedes enlazar este logo si es necesario -->
     <a href="/views/templates/dashboard.php">
-      <img src="../img/noGanador.jpg" alt="Logo Empresa" class="logo-img">
+      <img src="../../img/slpChichimecas.jpeg" alt="Logo Empresa" class="logo-img">
     </a>
   </div>
   <ul class="drawer-list">
-    <li><a href="/views/templates/index.php">Inicio</a></li>
-    <li><a href="/views/templates/entradasProducto.php">Galería</a></li>
+    <li><a href="views/templates/index.php">Inicio</a></li>
+    <li><a href="/views/templates/galeria.php">Galería</a></li>
     <li><a href="/views/templates/materiales.php">Costumbres</a></li>
     <li><a href="/views/templates/menureportes.php">Fechas Importantes</a></li>
     <li><a href="/views/templates/menureportes.php">Aprende Úza'</a></li>
