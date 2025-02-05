@@ -13,13 +13,10 @@
 <br>
 <br>
 	<div class="containerEncabezado">
-		
 		<h1>SOMOS CHICHIMECAS</h1>
 	</div>
-	
 	<div class="containerParrafo">
-		<p>Los Chichimecas
-		Los chichimecas fueron un conjunto de pueblos indígenas que habitaron en el norte y centro de lo que hoy es México, principalmente en las regiones áridas y semiáridas de los actuales estados de Zacatecas, Guanajuato, San Luis Potosí, Jalisco y Aguascalientes. El término "chichimeca" era utilizado por los mexicas (aztecas) para referirse de manera general a los pueblos nómadas y seminómadas del norte, a quienes consideraban menos civilizados en comparación con las culturas mesoamericanas.
+		<p>Los chichimecas fueron un conjunto de pueblos indígenas que habitaron en el norte y centro de lo que hoy es México, principalmente en las regiones áridas y semiáridas de los actuales estados de Zacatecas, Guanajuato, San Luis Potosí, Jalisco y Aguascalientes. El término "chichimeca" era utilizado por los mexicas (aztecas) para referirse de manera general a los pueblos nómadas y seminómadas del norte, a quienes consideraban menos civilizados en comparación con las culturas mesoamericanas.
 		Características principales:
 		Estilo de vida:
 		Eran principalmente cazadores-recolectores, aunque algunos grupos practicaban una agricultura incipiente.
@@ -35,15 +32,14 @@
 		Muchos de los actuales pueblos indígenas del norte, como los huicholes (wixárikas) y los tarahumaras (rarámuris), descienden de los antiguos chichimecas.
 		Lengua:
 		Hablaban diversas lenguas, muchas de las cuales no han sobrevivido hasta la actualidad. Algunas de estas lenguas pertenecían a la familia uto-azteca.</p>
+		<!-- Este texto fue sacado del libnro HISTORIA DE LA NACIÓN CHICHIMECA https://www.ellibrototal.com/ltotal/?t=1&d=2781 -->
+		<p>Quetzalcóatl por interpretación literal, significa sierpe de plumas preciosas; por sentido alegórico varón sapientísimo; y Huémac, dicen unos que le pusieron este nombre porque imprimió y estampó sobre una peña sus manos, como si fuera en cera muy blanda, en testimonio de que se cumpliría todo lo que les dejó dicho. Otros quieren decir que significa el de la mano grande o poderosa. El cual ido que fue, de allí a pocos días sucedió la destrucción y asolamiento referido de la tercera edad del mundo; y entonces, se destruyó aquel edificio y torre tan memorable y suntuosa de la ciudad de Cholula, que era como otra segunda torre de Babel, que estas gentes edificaban casi con los mismos designios, deshaciéndola el viento. Y después los que escaparon de la consumición de la tercera edad, en las ruinas de ella edificaron un templo a Quetzalcóatl a quien colocaron por dios del aire, por haber sido causa de su destrucción el aire, entendiendo ellos que fue enviada de su mano esta calamidad; y le llamaron asimismo ce ácatl que fue el nombre del año de su venida. Y según parece por las historias referidas y por los anales, sucedió lo suso referido algunos años después de la encarnación de Cristo señor nuestro; y desde este tiempo acá entró la cuarta edad que dijeron llamarse Tletonátiuc, que significa sol de fuego, porque dijeron que esta cuarta y última edad del mundo se ha de acabar con fuego. Era Quetzalcóatl hombre bien dispuesto, de aspecto grave, blanco y barbado. Su vestuario era una túnica larga.
+
+ </p>
 	</div>
-
-
-
-
-
-
-
-
+<div>
+	
+</div>
 
 	<script src="../../src/js/script.js" type="text/javascript" charset="utf-8"></script>
 

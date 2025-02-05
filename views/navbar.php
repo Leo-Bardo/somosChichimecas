@@ -17,20 +17,17 @@
     </a>
   </div>
   <ul class="drawer-list">
-    <li><a href="views/templates/index.php">Inicio</a></li>
+    <li><a href="index.php">Inicio</a></li>
     <li><a href="/views/templates/galeria.php">Galería</a></li>
-    <li><a href="/views/templates/materiales.php">Costumbres</a></li>
-    <li><a href="/views/templates/menureportes.php">Fechas Importantes</a></li>
-    <li><a href="/views/templates/menureportes.php">Aprende Úza'</a></li>
-    <li><a href="/views/templates/menureportes.php">Territorios</a></li>
-    <li><a href="/views/templates/menureportes.php">Organigrama</a></li>
-    <li><a href="/views/templates/menureportes.php">Bibliografía</a></li>
-    <li><a href="/views/templates/menureportes.php">Casa de los Chichimecas</a></li>
-    <li><a href="/views/templates/menureportes.php">Noticias</a></li>
-    <li><a href="/views/templates/menureportes.php">Bolsa de Trabajo</a></li>
+    <li><a href="/views/templates/costumbres.php">Costumbres</a></li>
+    <li><a href="/views/templates/fechaImportante.php">Fechas Importantes</a></li>
+    <li><a href="/views/templates/uza.php">Aprende Úza'</a></li>
+    <li><a href="/views/templates/territorios.php">Territorios</a></li>
+    <li><a href="/views/templates/organigrama.php">Organigrama</a></li>
+    <li><a href="/views/templates/bibliografia.php">Bibliografía</a></li>
+    <li><a href="/views/templates/casaChichimeca.php">Casa de los Chichimecas</a></li>
+    <li><a href="/views/templates/noticias.php">Noticias</a></li>
+    <li><a href="/views/templates/bolsaTrabajo.php">Bolsa de Trabajo</a></li>
   </ul>
-  <div class="logout-container">
-    <button class="logout-button">Cerrar sesión</button>
-  </div>
 </div>
 <div class="overlay"></div>
