@@ -6,11 +6,12 @@
 	flex-wrap: wrap;
 }
 .containerEncabezado{
-	margin-top: 70px;
 	width: 100%;
-	font-size: 30px;
+	height: 100px;
+	font-size: 26px;
 	text-align: center;
-/*	Enlazado a cdn de index*/
+
+/*	----------- Enlazado a cdn de index ----------- */
 	font-family: 'Zetwih Trial', sans-serif;
 
 }
@@ -42,4 +43,27 @@
 h1{
 	margin-bottom: 10px;
 }
+
+
+/* Estilos para el menú y el overlay */
+#drawer {
+  /* ... otros estilos ... */
+  transition: transform 0.3s ease-in-out; /* Transición para el menú */
+  transform: translateX(-100%); /* Oculto por defecto */
+}
+
+#drawer.open {
+  transform: translateX(0); /* Se muestra al abrir */
+}
+
+.overlay {
+  /* ... otros estilos ... */
+  transition: opacity 0.3s ease-in-out; /* Transición para el overlay */
+  opacity: 0; /* Oculto por defecto */
+}
+
+.overlay.active {
+  opacity: 1; /* Se muestra al activar */
+}
+
 

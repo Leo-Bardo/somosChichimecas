@@ -1,7 +1,4 @@
-.containerEncabezado{
-	margin: 0px 80px;
-	padding: 20px 20px 0px 20px;
-}
+
 .containerParrafo{
 	padding: 20x 20px 0px 20px;
 	align-items: center;
@@ -9,25 +6,6 @@
 	margin-top: 80px;
 /*revisar parla que sirve este atributo*/
   overflow: hidden;
-}
-.navbar-container {
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-}
-.navbar-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-/*  padding: 0 20px;*/
-  background-color: #333; /* Fondo oscuro */
-  height: 70px; /* Incrementa la altura de la barra */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 /* Logo dentro de la barra de navegación */
 .logo {
@@ -90,7 +68,10 @@
 .drawer-container.open {
   left: 0;
 }.drawer-list {
-  list-style: none;
+    list-style-type: none;
+    list-style-type: none;
+    padding-left: 0; /* Elimina el espacio interno */
+    margin-left: 0;  /* Elimina el espacio externo */
 }
 .drawer-list li {
   text-align: left;
@@ -101,7 +82,7 @@
   display: block;
   transition: background-color 0.3s ease;
   margin-bottom: 10px;
-  border: solid red;
+/*  border: solid red;*/
 }
 
 .drawer-list a:hover {
@@ -149,6 +130,7 @@
 .navbar-container {
   background-color: black;
   color: white;
+  height: 110px;
   padding: 5px 20px;
   display: flex;
   align-items: center;
@@ -158,21 +140,8 @@
   left: 0;
   width: 100%;
   z-index: 1000;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-
-/* Contenedor principal de la barra de navegación */
-.navbar-container {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
-/*  padding: 0 20px;*/
-  height: 110px; /* Incrementa la altura de la barra */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-
-/* Logo dentro de la barra de navegación */
 .logo {
   display: flex;
   align-items: center;
@@ -306,7 +275,8 @@
 }
 .greca{
   filter: invert(100%);
-  width: 100px;
-  height: 40px;
+  width: 140px;
+  height: 60px;
+  margin-top: 40px;
   background-color: transparent;
 }
