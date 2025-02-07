@@ -1,1 +1,45 @@
-styles.css
+.container{
+	display: flex; /* Utilizamos flexbox para crear las columnas */
+    justify-content: space-between; /* Espacios entre las columnas */
+    align-items: center; /* Alineamos verticalmente el contenido */
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.containerEncabezado{
+	margin-top: 70px;
+	width: 100%;
+	font-size: 30px;
+	text-align: center;
+/*	Enlazado a cdn de index*/
+	font-family: 'Zetwih Trial', sans-serif;
+
+}
+.containerParrafo{
+/*	Deja fuente temporalmente mientras encuentras otra mas legible, esta no identifica los acentos*/
+	font-family: 'Burtinomatic', sans-serif;
+	font-family: 'Burtinomatic-DemiBold', sans-serif;
+	font-size: 24px;
+	padding: 0px 0px 0px 0px;
+	width: 100%;
+	align-items: center;
+	font-size: 24px; /* Tamaño de fuente */
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+    text-align: justify;
+}
+.containerImg{
+	width: 40%;
+}
+@media (max-width: 800px) {
+    .container {
+        flex-direction: column; /* Cambia a disposición en columna */
+        align-items: center;
+    }
+
+    .containerParrafo, .containerImg {
+        width: 100%; /* Ambas columnas toman el 100% del ancho en pantallas pequeñas */
+    }
+}
+h1{
+	margin-bottom: 10px;
+}
+

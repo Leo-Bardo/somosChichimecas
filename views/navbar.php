@@ -1,19 +1,19 @@
-<link rel="stylesheet" href="/src/css/navbar.css">
-<script src="/assets/js/scripts.js"></script>
+<link rel="stylesheet" href="/src/css/styles.css">
+<script src="/src/js/script.js"></script>
 
 <div class="navbar-container">
   <span class="menu-icon">&#9776;</span>
   <!-- Modificar el atributo href para redirigir al dashboard -->
-  <a href="/views/templates/dashboard.php" class="logo">
-    <img src="../../img/noGanador.jpeg" alt="Logo Empresa" class="logo-img">
-  </a>
+    <div class="containerEncabezado">
+      <h1>SOMOS CHICHIMECAS</h1>
+    </div>
 </div>
 
 <div id="drawer" class="drawer-container">
   <div class="logo-container">
     <!-- También puedes enlazar este logo si es necesario -->
     <a href="/views/templates/dashboard.php">
-      <img src="../../img/slpChichimecas.jpeg" alt="Logo Empresa" class="logo-img">
+      <img src="/../img/greca1.png" alt="Logo Empresa" class="greca">
     </a>
   </div>
   <ul class="drawer-list">
@@ -30,4 +30,3 @@
     <li><a href="/views/templates/bolsaTrabajo.php">Bolsa de Trabajo</a></li>
   </ul>
 </div>
-<div class="overlay"></div>

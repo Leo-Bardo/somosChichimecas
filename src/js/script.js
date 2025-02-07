@@ -16,13 +16,3 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
-document.addEventListener('DOMContentLoaded', () => {
-  const logoutButton = document.querySelector('.logout-button');
-  
-  logoutButton.addEventListener('click', () => {
-    // Confirmación opcional
-    if (confirm('¿Estás seguro de que deseas cerrar sesión?')) {
-      window.location.href = '/logout.php'; // Redirige a logout.php
-    }
-  });
-});
