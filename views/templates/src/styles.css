@@ -1,50 +1,65 @@
-.container{
-	display: flex; /* Utilizamos flexbox para crear las columnas */
-    justify-content: space-between; /* Espacios entre las columnas */
-    align-items: center; /* Alineamos verticalmente el contenido */
-	flex-direction: row;
-	flex-wrap: wrap;
+body {
+	background-position: center;
+	transition: background 1s ease-in-out;
+	margin-top: 100px;
 }
 .containerEncabezado{
 	width: 100%;
 	height: 100px;
-	font-size: 26px;
+	font-size: 24px;
 	text-align: center;
-
 /*	----------- Enlazado a cdn de index ----------- */
 	font-family: 'Zetwih Trial', sans-serif;
-
+}
+	.container{
+	display: flex; /* Utilizamos flexbox para crear las columnas */
+	justify-content: space-between; /* Espacios entre las columnas */
+	align-items: center; /* Alineamos verticalmente el contenido */
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.containerImg{
+	width: 40%;
+	margin-left: -20;
+	border-radius: 6px;
+  top: 0;
+  left: 0;
+  border: 10px solid #686461;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  transition-timing-function: cubic-bezier(0.4, 1.55, 0.74, 0.55);
+}
+.containerImg:hover{
+	border: solid 14px #8B9D77;
+	width: 41%;
+}
+.container img{
+	width: 100%;
 }
 .containerParrafo{
 /*	Deja fuente temporalmente mientras encuentras otra mas legible, esta no identifica los acentos*/
 	font-family: 'Burtinomatic', sans-serif;
 	font-family: 'Burtinomatic-DemiBold', sans-serif;
-	font-size: 24px;
-	padding: 0px 0px 0px 0px;
-	width: 100%;
 	align-items: center;
-	font-size: 24px; /* Tamaño de fuente */
+	font-size: 22px;
+	box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+	text-align: justify;
+/*	revisar espacio para el parrafo*/
+    width: 50%; /* 50% de ancho para el texto */
+    padding: 40px; /* Espaciado alrededor del texto */
     box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
-    text-align: justify;
-}
-.containerImg{
-	width: 40%;
 }
 @media (max-width: 800px) {
     .container {
-        flex-direction: column; /* Cambia a disposición en columna */
         align-items: center;
     }
-
-    .containerParrafo, .containerImg {
+    .containerParrafo {
         width: 100%; /* Ambas columnas toman el 100% del ancho en pantallas pequeñas */
     }
 }
 h1{
 	margin-bottom: 10px;
 }
-
-
 /* Estilos para el menú y el overlay */
 #drawer {
   /* ... otros estilos ... */
@@ -55,15 +70,30 @@ h1{
 #drawer.open {
   transform: translateX(0); /* Se muestra al abrir */
 }
-
-.overlay {
-  /* ... otros estilos ... */
-  transition: opacity 0.3s ease-in-out; /* Transición para el overlay */
-  opacity: 0; /* Oculto por defecto */
+.container {
+    display: flex; /* Utilizamos flexbox para crear las columnas */
+    justify-content: space-between; /* Espacios entre las columnas */
+    align-items: center; /* Alineamos verticalmente el contenido */
 }
-
-.overlay.active {
-  opacity: 1; /* Se muestra al activar */
+   
+#contenedor {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 200%;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      background-size: cover;
+      background-position: center;
+      transition: background 1s ease-in-out;
+      z-index: -1;
+      opacity: 0.3;
+    }
+.containerGreca img{
+	width: 10%;
+	height: 200px;
+/*	Metodo temporal para alcanzar el margen de encabezado con el contenedor de grecas*/
+	margin-top: -120px;
 }
-
-

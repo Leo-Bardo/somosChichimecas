@@ -1,19 +1,4 @@
-.container {
-    display: flex; /* Utilizamos flexbox para crear las columnas */
-    justify-content: space-between; /* Espacios entre las columnas */
-    align-items: center; /* Alineamos verticalmente el contenido */
-}
 
-.containerParrafo {
-    width: 50%; /* 50% de ancho para el texto */
-    padding: 20px; /* Espaciado alrededor del texto */
-    font-size: 24px; /* Tamaño de fuente */
-    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
-}
-
-.containerImg {
-    width: 50%; /* 50% de ancho para las imágenes */
-}
 
 .slider {
     width: 100%; /* Asegura que las imágenes ocupen todo el contenedor */
