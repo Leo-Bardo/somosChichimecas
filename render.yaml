@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: somosChichimecas
+    runtime: php
+    buildCommand: composer install
+    startCommand: php -S 127.0.0.1:8000 -t public
+    env: php
+    # queda reservado para la implementación de base de datos al proyecto 
+    envVars:
+      - key: DATABASE_URL
+        value: postgresql://user:password@host:port/dbname
